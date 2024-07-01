@@ -11,7 +11,7 @@ body{
     justify-content: space-around;
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid  darkslategray;
+    border-bottom: 1px solid  rgba(47, 79, 79, 0.24);
     background-color: white;
     position: fixed;
     top: 0;
@@ -517,8 +517,7 @@ margin: 10px 10px 0 0;}
 
   .card_container_1 {
     position: relative;
-    align-items: center;
-    justify-content: center;
+
     min-width: 220px; /* Adjust this width as needed */
     margin: 0 20px 0 20px;
     cursor: pointer;
@@ -564,8 +563,7 @@ position: absolute;
 
   .card_container_1_Most_booked_services {
     position: relative;
-    align-items: center;
-    justify-content: center;
+
     min-width: 220px; /* Adjust this width as needed */
     margin: 0 20px 0 20px;
     cursor: pointer;
@@ -604,7 +602,7 @@ position: absolute;
   .laser_poster{
     height: 412px;
     width: 1232px;
-    margin: 55px 0 30px 55px;
+    margin: 60px 0 60px 50px;
 
   }
 
@@ -623,4 +621,46 @@ position: absolute;
 }
 
 
+.Salon_for_Women_card_container{
+    display: flex;
+    height: 350px;
+    width: 99%;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+    scroll-behavior: smooth;
+
+    margin: 30px 0 50px 0;
+
+  }
+
+  .Salon_for_Women_card_container_1 {
+    position: relative;
+
+    min-width: 250px; /* Adjust this width as needed */
+    height: 290px;
+    border: #5755551e solid 1px;
+border-radius: 7px;
+    margin: 10px 20px 0 20px;
+    cursor: pointer;
+  }
+  .Salon_for_Women_card_container_1:hover{
+    transform: scale(1.01,1.01);
+    border: #575555 solid 1px;    
+
+  }
+  
+  .Salon_for_Women_card_container_1 img {
+    height: 240px;
+    width: 250px;
+    border-radius: 7px;
+    margin-top: 50px;
+  }
+
+  .Salon_for_Women_card_container_1 p {
+   position: absolute;
+    margin: 10px 0 0 10px ;
+    font-size:medium;
+    font-weight: bold;
+    color: #4b4848;
+  }
   
