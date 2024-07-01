@@ -16,7 +16,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
     
 }
 .left-navbar{
@@ -109,6 +109,11 @@ body{
     border-radius: 10px;
     font-weight: bolder;
 
+
+}
+.login-btn:hover{
+    background-color: #333;
+    color: white;
 }
 
 /* hero section */
@@ -329,7 +334,8 @@ margin: 10px 10px 0 0;}
     overflow-x: scroll;
     scrollbar-width: none; /* For Firefox */
     scroll-behavior: smooth;
-    margin: 30px 0 20px 0;
+
+    margin: 80px 0 80px 0;
   }
   
   .card-collection::-webkit-scrollbar {
@@ -484,3 +490,137 @@ margin: 10px 10px 0 0;}
   }
 
 
+  .all_services{
+    margin: 80px 10px 0 20px;
+    /* font-size: large; */
+    font-size: 20px;
+
+
+  }
+
+  .all_services h1 {
+    margin-left: 20px;
+  }
+
+
+  .card_container{
+    display: flex;
+    height: 300px;
+    width: 99%;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+    scroll-behavior: smooth;
+
+    margin: 30px 0 20px 0;
+
+  }
+
+  .card_container_1 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px; /* Adjust this width as needed */
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+  }
+  .card_container_1:hover{
+    transform: scale(1.01,1.01);
+  }
+  
+  .card_container_1 img {
+    height: 250px;
+    width: 220px;
+    border-radius: 7px;
+    object-fit: cover;
+  }
+
+  .card_container_1 p {
+    margin: 10px 0 0 10px ;
+    font-size:medium;
+    font-weight: bold;
+    color: #575555;
+  }
+
+  .Sale_text1{
+position: absolute;
+    font-size: medium;
+    background-color: green;
+    border-radius: 2px;
+    padding: 5px 10px 0 10px;
+    color: white;
+
+  }
+  .card_container_Most_booked_services{
+    display: flex;
+    height: 370px;
+    width: 99%;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+    scroll-behavior: smooth;
+
+    margin: 30px 0 20px 0;
+
+  }
+
+  .card_container_1_Most_booked_services {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px; /* Adjust this width as needed */
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+  }
+  .card_container_1_Most_booked_services:hover{
+    transform: scale(1.01,1.01);
+  }
+  
+  .card_container_1_Most_booked_services img {
+    height: 250px;
+    width: 220px;
+    border-radius: 7px;
+    object-fit: cover;
+  }
+
+  .card_container_1_Most_booked_services p {
+    margin: 10px 0 0 10px ;
+    font-size:medium;
+    font-weight: bold;
+    color: #161515;
+  }
+  .price_details p{
+    margin: 10px 0 0 10px ;
+    font-size:15px;
+    font-weight: 100;
+    color: #292828;
+    
+
+  }
+  
+  .price_details i{
+   font-size:  10px;
+    color: #575555;
+  }
+
+  .laser_poster{
+    height: 412px;
+    width: 1232px;
+    margin: 55px 0 30px 55px;
+
+  }
+
+  .laser_poster img{
+    object-fit: cover;
+}
+.laser_poster:hover{
+    transform: scale(1.03,1.03);
+}
+.New_and_noteworthy{
+    margin: 0 0 50px 0;
+}
+.Most_booked_services{
+    margin: 0 0 50px 0;
+
+}
+
+
+  
