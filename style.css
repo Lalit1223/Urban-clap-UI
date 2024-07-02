@@ -164,6 +164,7 @@ text-align: center;
 position: relative;
 
 }
+/* Undeline code by chatGPT */
 .cards::after {
     content: '';
     position: absolute;
