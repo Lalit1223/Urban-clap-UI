@@ -145,7 +145,7 @@ justify-content: space-between;
 }
 .service-container{
     height: 418px;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.281);
     border-radius: 1%;
     padding: 10px;
 
