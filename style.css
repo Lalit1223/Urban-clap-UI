@@ -108,12 +108,14 @@ body{
     border: 0.5px solid grey;
     border-radius: 10px;
     font-weight: bolder;
-
-
+}
+.login-btn a{
+text-decoration: none;
+color: rgb(15, 15, 15);
 }
 .login-btn:hover{
-    background-color: #333;
-    color: white;
+    background-color: #3d3a3a33;
+    color: rgb(248, 239, 239);
 }
 
 /* hero section */
